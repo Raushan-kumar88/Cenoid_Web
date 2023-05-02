@@ -1,0 +1,10 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+}

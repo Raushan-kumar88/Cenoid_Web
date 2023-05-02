@@ -16,12 +16,11 @@
   
 }
 .home i{
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     background: rgb(218, 215, 215);
-    color: black;
-    padding: 8px;
     border-radius: 2px 2px 2px 12px;
+    /* color: blue; */
 }
 .home h3{
     color: red;
@@ -63,7 +62,7 @@
     width: 90%;
     padding: 10px 20px;
     border-radius: 8px 8px 8px 150px;
-    margin-left: -70px;
+    margin-left: 70px;
 }
 
 

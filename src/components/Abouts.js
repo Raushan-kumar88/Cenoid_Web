@@ -1,6 +1,11 @@
 import React from 'react'
 import style  from './hello.module.css'
 // import DiamondIcon from '@mui/icons-material/Diamond';
+// import { IoDiamond } from 'react-icons/io';
+import { IoDiamond } from 'react-icons/io5';
+
+
+
 import aboutimg from '../Images/aboutimg.jpg'
 // import T1 from '../Images/back1.png'
 export default function Abouts() {
@@ -8,7 +13,7 @@ export default function Abouts() {
     <>
     <div className={style.home}>
     <div className={style.containerL}>
-        {/* <i><DiamondIcon/></i> */}
+        <i><IoDiamond /></i>
         <h3>ABOUT US</h3>
         <h2>Selected materials designed for comfort and sustainability</h2>
         <p>At Crocksi, we believe that everyone deserves to have shoes that not only look great, but also feel comfortable and fit perfectly. That’s why we offer a wide range of customized shoes for men and women, designed to your exact specifications and tailored to your unique measurements.</p>

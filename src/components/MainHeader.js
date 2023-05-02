@@ -1,5 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import './MainHeader.css';
+import { AiFillShopping } from 'react-icons/ai';
+import { BiSearch } from 'react-icons/bi';
+
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const MainHeader = () => {
@@ -23,9 +26,10 @@ const MainHeader = () => {
                     <li>
                         <NavLink activeClassName="active" to='/contact-us'>Contact Us</NavLink>
                     </li>
-                    <li><NavLink  to=''>a <span className='w-6 bg-slate-400 px-1 rounded-full'>0</span></NavLink></li>
+                    <li className=''><NavLink className='flex justify-center items-center space-x-1'  to=''><AiFillShopping/><span className='w-6 bg-slate-400 px-2 justify-center items-center rounded-full'>0</span></NavLink></li>
                     <li>
-                        <NavLink  to=''>C</NavLink>
+                    {/* <BiSearch/> */}
+                        <NavLink  to=''><BiSearch/></NavLink>
                     </li>
                 </ul>
                 </div>

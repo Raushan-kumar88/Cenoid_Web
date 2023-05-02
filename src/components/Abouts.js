@@ -13,7 +13,10 @@ export default function Abouts() {
     <>
     <div className={style.home}>
     <div className={style.containerL}>
-        <i><IoDiamond /></i>
+        {/* <h4 className=''><IoDiamond size={30} className='text-[#002964]'/></h4> */}
+        <div className='relative w-12 h-12  bg-gray-300 rounded-bl-2xl ml-14'>
+        <IoDiamond  size={30} className='text-[#002964] absolute top-[20%] left-[20%] '/>
+        </div>
         <h3>ABOUT US</h3>
         <h2>Selected materials designed for comfort and sustainability</h2>
         <p>At Crocksi, we believe that everyone deserves to have shoes that not only look great, but also feel comfortable and fit perfectly. That’s why we offer a wide range of customized shoes for men and women, designed to your exact specifications and tailored to your unique measurements.</p>

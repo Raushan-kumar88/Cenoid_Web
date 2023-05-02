@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   /* background: #E3E6F3; */
-  padding: 20px 80px;
+  padding: 10px 100px;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
   /* z-index: 999;
   position: sticky; */
@@ -22,6 +22,7 @@
   padding: 0 12px;
   position: relative;
   font-weight: 400;
+  font-size: 16px;
 }
 
 #nav li NavLink{

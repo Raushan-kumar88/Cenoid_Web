@@ -33,6 +33,7 @@
     margin: 0 15px;
     flex: 1;
     /* background: red; */
+    position: sticky;
     border-radius: 5px;
     width: auto;
     /* height: 360px; */
@@ -54,6 +55,8 @@
     margin-left: 13px;
     transition: all 0.5s ease;
     margin-bottom: 5px;
+    /* transform: translateY(40px); */
+    /* position: sticky; */
   }
   .main .card-row .card .hover:hover{
     transform: translateY(-40px);

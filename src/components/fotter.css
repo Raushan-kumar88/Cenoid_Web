@@ -1,0 +1,43 @@
+.fotter{
+    width: 100%;
+    color: red;
+    height: 40vh;
+    justify-content: space-around;
+    justify-items: center;
+    display: flex;
+}
+.fotter .img{
+    width: 24%;
+    /* background: yellow; */
+}
+.fotter .sec{
+    width: 14%;
+    /* background: yellow; */
+}
+.fotter .img img{
+    width: 300px;
+    padding: 30px 0px;
+    margin-top: 20px;
+    /* margin-left: 25px; */
+}
+.fotter .img p{
+    color: #807f7f;
+    font-size: 17px;
+    line-height: 27px;
+}
+.fotter .sec h1{
+    font-size: 20px;
+    margin-top: 60px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    color: #002964;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.fotter .sec h3{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #002964;
+    margin: 14px 0px;
+}

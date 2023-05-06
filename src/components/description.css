@@ -1,0 +1,54 @@
+.contner{
+    width: 100%;
+    height: 88vh;
+    background: #002964;
+    margin: 50px 0px;
+}
+.contner .contain{
+    /* width: 60%; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contner .contain h2{
+    color: white;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 38px;
+    margin-left: 78px;
+    margin-top: 90px;
+}
+.contner .contain p{
+    color: #c8c8c8;
+    font-size: 17px;
+    line-height: 28.8px;
+    padding: 16px 0px;
+}
+.contner .contain img{
+    float: right;
+    width: 500px;
+    margin-right: 40px;
+    height: 634px;
+}
+.contner .contain .box{
+    width: 80%;
+    /* background: yellow; */
+    margin-left: 100px;
+    /* margin-top: 20px; */
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.contner .contain .box .box1,.box2{
+    /* background: red; */
+    width: 45%;
+    text-align: left;
+    margin-left: 10px;
+}
+.contner .contain .box .box1 span ,.box2 span{
+ border-left: 3px solid red;  
+ padding: 6px 0px; 
+ /* background: yellow; */
+}
+/* .contner .contain .box .box1 span ,.box2 span */

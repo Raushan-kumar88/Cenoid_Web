@@ -83,5 +83,42 @@
     margin-left: -10px;
 }
 
+@media(max-width:940px){
+    .home{
+        width: 100vh;
+        height: auto;
+        padding: none;
+        margin: none;
+        display: block;
 
+
+    }
+
+    .home .containerL{
+        width: 100vh;
+        padding: none;
+        margin: none;
+        /* background: yellow; */
+        margin-left: 0px;
+    }
+
+    .home .containerR{
+        /* background: black; */
+        width: 100vh;
+        margin-left: 0px;
+
+    }
+    .home p{
+        font-size: 28px;
+    }
+
+    .home h3{
+        font-size: 30px;
+    }
+
+    .home .containerR img{
+        width: 90vh;
+    }
+
+}
  

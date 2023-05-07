@@ -38,7 +38,7 @@ const Card1 = (props) => {
             <div className="hover">
             <h2>{card.title}</h2>
             <h3>{card.description}</h3>
-            <div className='flex align-middle space-x-20 text-center'>
+            <div className='demo4 flex align-middle space-x-20 text-center'>
             <NavLink id='h4'  to=''>SELECT OPTIONS</NavLink>
             <NavLink className='mt-2' to=''><BiSearch/></NavLink>
             </div>

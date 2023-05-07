@@ -51,4 +51,69 @@
  padding: 6px 0px; 
  /* background: yellow; */
 }
+
+
+@media(max-width:940px){
+    .contner{
+        /* background: yellow; */
+        width: 100vh;
+        height: auto;
+        padding: none;
+        margin: none;
+        /* font-size: 40px; */
+    }
+    .contner .demo{
+        /* background-color: yellow; */
+        width: 94vh;
+        margin: 8px 20px;
+        padding: 20px;
+    
+    }
+    .contner .contain{
+        display: block;
+        padding: none;
+        margin-left: 0;
+        /* margin-top: 30px; */
+    }
+    .contner .contain h2{
+        font-size: 44px;
+        padding: 20px 0;
+        margin-left: 10px;
+        margin-top: 40px;
+
+    }
+    .contner .contain p{
+        font-size: 26px;
+        line-height: 38px;
+        text-align: justify;
+    }
+    .contner .contain .box{
+        display: inline-block;
+        width: 100vh;
+        padding: none;
+        /* background: yellow; */
+        margin: 0;
+    }
+    .contner .contain .box .box1,.box2{
+        /* background: yellow; */
+        height: auto;
+        margin: 0;
+        width: 90vh;
+        margin: 0;
+    }
+    .contner .contain img{
+        display: none;
+    }
+
+    .contner .contain .box .box1 span ,.box2 span{
+        margin: 30px 0;
+    }
+    .contner .contain .box .box1 span h4,.box2 span h4{
+        font-size: 30px;
+    }
+
+}
+
+
+
 /* .contner .contain .box .box1 span ,.box2 span */

@@ -9,7 +9,7 @@ function Description() {
                 <h2>
                 Get Creative with Crocksi
                 </h2>
-                <p className='mt-4 mx-20 text-base'>At Crocksi, we’re all about encouraging creativity and self-expression. 
+                <p className='demo mt-4 mx-20 text-base'>At Crocksi, we’re all about encouraging creativity and self-expression. 
                 That’s why we offer our customers the <br/> unique opportunity to 
                 design their own one-of-a-kind shoes using our online customization platform.</p>
                 <div className='box flex'>

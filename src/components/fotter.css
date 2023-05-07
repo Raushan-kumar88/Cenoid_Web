@@ -41,3 +41,69 @@
     color: #002964;
     margin: 14px 0px;
 }
+
+@media(max-width:940px){
+    .fotter{
+        height: auto;
+        width: 100vh;
+        display: inline-block;
+    }
+
+    .fotter .sec{
+        width: 100vh;
+        /* background: yellow; */
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .fotter .img{
+        width: 100vh;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .fotter .img p{
+        font-size: 30px;
+        line-height: 50px;
+
+
+    }
+    .fotter .img img{
+        width: 60%;
+        margin: 30px 0px;
+    }
+    .fotter .sec h1{
+        font-size: 40px;
+        /* margin: 30px auto; */
+        text-align: start;
+    }
+
+    .fotter .sec h3{
+        font-size: 30px;
+        margin-top: 20px;
+        text-align: left;
+        padding: 20px;
+    }
+    .fotter .sec .icon{
+        /* background: yellow; */
+        text-align: center;
+        font-size: 40px;
+        padding: 20px 5px;
+    }
+    .copy1{
+        background: none;
+        width: 100vh;
+        height: auto;
+        text-align: left;
+        padding: 10px;
+    }
+    .copy1 h1{
+        font-size: 22px;
+        text-align: start;
+        width: 100vh;
+        margin-top: 6px;
+        margin-left: 14px;
+        font-weight: 700;
+    }
+}

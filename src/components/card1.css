@@ -83,4 +83,64 @@
     color: #2d3748;
 
   }
+
+  @media(max-width:940px){
+
+    .main{
+      width: 100vh;
+      height: auto;
+      /* background: black; */
+      align-items: center;
+      color: white;
+      padding: none;
+      margin: 0;
+    }
+    .main h1{
+      font-size: 30px;
+    }
+    .main p{
+      font-size: 40px;
+    }
+    .main .card-row{
+      display: inline-block;
+      margin-bottom: 20px;
+
+    }
+
+    .main .card-row .card {
+      /* background: yellow; */
+      margin-bottom: 50px;
+      width: 80vh;
+      height: 90vh;
+      margin-left: 70px;
+      padding: none;
+    }
+
+    .main .card-row .card img{
+      width: 80vh;
+      height: 60vh;
+    }
+
+    .main .card-row .card .hover{
+      /* background: red; */
+      color: black;
+      width: 76vh;
+    }
+
+    .main .card-row .card .hover h2{
+      font-size: 30px;
+
+    }
+    .main .card-row .card .hover h3{
+      font-size: 24px;
+    }
+
+    .main .card-row .card .demo4{
+      display: flex;
+      /* background: yellow; */
+      justify-content: space-between;
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
   

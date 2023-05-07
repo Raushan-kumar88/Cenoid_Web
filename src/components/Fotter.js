@@ -36,7 +36,7 @@ function Fotter() {
                 <h3>267-608-7267</h3>
                 {/* <div className='flex bg-slate-300'><FiMail/><h3>267-608-7267</h3></div> */}
                 <h3>malikantoinette78@gmail.com</h3>
-                <div className='flex text-xl space-x-4 mt-5 ml-4'>
+                <div className='icon flex text-xl space-x-4 mt-5 ml-4'>
                 <BsFacebook/> <AiFillLinkedin/> <BsInstagram/> <FiMail/>
                 </div>
             </div>

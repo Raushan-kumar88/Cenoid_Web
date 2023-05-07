@@ -28,7 +28,7 @@ const MainHeader = () => {
                     </li>
                     <li className=''><NavLink className='flex justify-center items-center space-x-1'  to=''><AiFillShopping/><span className='w-5 bg-slate-400 px-1.5 justify-center items-center rounded-full text-sm'>0</span></NavLink></li>
                     <li>
-                    {/* <BiSearch/> */}
+                    
                         <NavLink  to=''><BiSearch/></NavLink>
                     </li>
                 </ul>

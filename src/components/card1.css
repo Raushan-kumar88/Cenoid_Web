@@ -97,9 +97,14 @@
     }
     .main h1{
       font-size: 30px;
+      padding: 10px 60px;
+      margin-top: 69px;
+      margin-bottom: 4px;
     }
     .main p{
       font-size: 40px;
+      margin-bottom: 20px;
+      padding-left: 58px;
     }
     .main .card-row{
       display: inline-block;

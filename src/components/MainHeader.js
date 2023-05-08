@@ -14,7 +14,8 @@ const MainHeader = () => {
            </div>
                 <div className="right">
                 <ul id='nav'>
-                    <li>
+                   <div className='flex max-sm:inline-block'>
+                   <li>
                         <NavLink exact activeClassName="active" to='/'>Home</NavLink>
                     </li>
                     <li>
@@ -26,11 +27,11 @@ const MainHeader = () => {
                     <li>
                         <NavLink activeClassName="active" to='/contact-us'>Contact Us</NavLink>
                     </li>
+                   </div>
+                    <div className='flex max-sm:hidden'>
                     <li className=''><NavLink className='flex justify-center items-center space-x-1'  to=''><AiFillShopping/><span className='w-5 bg-slate-400 px-1.5 justify-center items-center rounded-full text-sm'>0</span></NavLink></li>
-                    <li>
-                    
-                        <NavLink  to=''><BiSearch/></NavLink>
-                    </li>
+                    <li> <NavLink  to=''><BiSearch/></NavLink></li>
+                    </div>
                 </ul>
                 </div>
         </header>

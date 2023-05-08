@@ -96,7 +96,8 @@
 
     .home .containerL{
         width: 100vh;
-        padding: none;
+        /* padding: none; */
+        padding: 100px 29px;
         margin: none;
         /* background: yellow; */
         margin-left: 0px;

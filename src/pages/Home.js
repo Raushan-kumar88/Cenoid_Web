@@ -34,7 +34,7 @@ export default function Home() {
             />
             <Des/>
             <Fotter/>
-            <Copyright/>
+            {/* <Copyright/> */}
           {/* <ImageSlider images={images}/> */}
           {/* <div className="max-w-xs rounded overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <img className="w-full h-48 object-cover" src="https://source.unsplash.com/random/800x600" alt="Product" />

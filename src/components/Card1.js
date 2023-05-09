@@ -1,27 +1,31 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import card1 from '../Images/card1.webp'
+import card2 from '../Images/card2.webp'
+import card3 from '../Images/card3.webp'
+import card4 from '../Images/card4.webp'
+
 import './card1.css'
-// import card from './card1.css'
 import { BiSearch } from 'react-icons/bi';
 const Card1 = (props) => {
     const cards = [
         {
-          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3754091747_plt3-300x300.webp',
+          image: card1,
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
         {
-          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3797832477_bmcg-300x300.webp',
+          image: card2,
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
         {
-          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3944924405_lnej-300x300.webp',
+          image: card3,
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
         {
-          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3568848938_mexe-300x300.webp',
+          image: card4,
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },

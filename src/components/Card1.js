@@ -6,22 +6,22 @@ import { BiSearch } from 'react-icons/bi';
 const Card1 = (props) => {
     const cards = [
         {
-          image: 'https://source.unsplash.com/random/800x600',
+          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3754091747_plt3-300x300.webp',
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
         {
-          image: 'https://source.unsplash.com/random/800x600',
+          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3797832477_bmcg-300x300.webp',
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
         {
-          image: 'https://source.unsplash.com/random/800x600',
+          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3944924405_lnej-300x300.webp',
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
         {
-          image: 'https://source.unsplash.com/random/800x600',
+          image: 'https://crocksi.xendekweb.com/wp-content/uploads/2023/03/il_794xN.3568848938_mexe-300x300.webp',
           title: 'Bougie Dramatic Crocksi',
           description: '$195.00',
         },
@@ -34,7 +34,7 @@ const Card1 = (props) => {
         <div className="card-row">
       {cards.map((card) => (
         <div className="card">
-            <img src={card.image} alt="" />
+            <img className='' src={card.image} alt="" />
             <div className="hover">
             <h2>{card.title}</h2>
             <h3>{card.description}</h3>
